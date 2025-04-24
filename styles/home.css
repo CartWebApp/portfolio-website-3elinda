@@ -1,0 +1,18 @@
+:root {
+  --body-main: #1f0b40;
+  --body-alt: #424874;
+  --purple: #b659cd;
+  --pink: #fbc7fa;
+  --blue: #71f4ff;
+}
+
+body {
+  background-color: var(--body-main);
+}
+
+.folder {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--body-alt);
+  border: 1px solid var(--pink);
+}
