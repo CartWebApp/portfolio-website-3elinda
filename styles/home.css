@@ -6,13 +6,58 @@
   --blue: #71f4ff;
 }
 
+@font-face {
+  font-family: Audiowide;
+  src: url(/fonts/Audiowide-Regular.ttf);
+}
+
+@font-face {
+  font-family: ZenDots;
+  src: url(/fonts/ZenDots-Regular.ttf);
+}
+
+@font-face {
+  font-family: PixelifySans;
+  src: url(/fonts/PixelifySans-VariableFont_wght.ttf);
+}
+
 body {
   background-color: var(--body-main);
 }
 
-.folder {
-  width: 10rem;
-  height: 10rem;
+main {
+  margin: 0 10% 0 10%;
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.tab {
+  width: 12rem;
+  height: 2.5rem;
   background-color: var(--body-alt);
   border: 1px solid var(--pink);
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: Audiowide;
+}
+
+.folder {
+  width: 22rem;
+  height: 13rem;
+  background-color: var(--body-alt);
+  border: 1px solid var(--pink);
+  border-top-right-radius: 3%;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  font-family: PixelifySans;
+}
+
+.work-container {
+  background-color: var(--purple);
 }
