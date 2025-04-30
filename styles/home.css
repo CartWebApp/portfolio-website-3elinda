@@ -83,7 +83,7 @@ h1 {
 }
 
 main {
-  margin: 0 10% 0 10%;
+  /* margin: 0 10% 0 10%; */
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -121,4 +121,9 @@ main {
 .work-container,
 .contact-container {
   background-color: var(--purple);
+}
+
+.footer-content {
+  display: flex;
+  color: white;
 }
