@@ -123,7 +123,33 @@ main {
   background-color: var(--purple);
 }
 
+/* .footer-city{
+  display: flex;
+} */
+
 .footer-content {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   color: white;
+}
+
+/* .footer-content::before {
+  background: url(/images/Footer-city.png) repeat-x top;
+  content:  "";
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: -40px;
+} */
+
+.footer-content > img{
+  height: 5rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: PixelifySans;
+  color: #F1A9F1;
+  text-shadow: 1px 2px #E962E3;
 }
