@@ -29,6 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 2rem;
+  margin-top: 2rem;
 }
 
 #logo-b {
@@ -61,7 +62,6 @@ nav {
   gap: 2rem;
   margin: 0;
   padding-left: 0;
-  /* padding: 0 1rem 0 1rem; */
   position: relative;
   z-index: 1;
 }
@@ -94,37 +94,89 @@ main {
   flex-direction: row;
   justify-content: space-between;
   color: white;
+  margin: 0 5rem;
+  height: 23rem;
+  display: flex;
+  align-items: center;
+}
+
+.folder-container a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.folder-container a:visited {
+  color: white;
 }
 
 .tab {
-  width: 12rem;
-  height: 2.5rem;
+  width: 15rem;
+  height: 3rem;
   background-color: var(--body-alt);
   border: 1px solid var(--pink);
   border-bottom: none;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-family: Audiowide;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: ZenDots;
+  font-weight: lighter;
+  font-size: 25px;
+  padding-left: 1rem;
+}
+
+.rabbit-icon {
+  height: 3rem;
+  padding-right: 1rem;
 }
 
 .folder {
-  width: 22rem;
-  height: 13rem;
+  width: 25rem;
+  height: 15rem;
   background-color: var(--body-alt);
   border: 1px solid var(--pink);
   border-top-right-radius: 3%;
   border-bottom-left-radius: 3%;
   border-bottom-right-radius: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.folder > p {
   font-family: PixelifySans;
+  font-size: 25px;
+  text-align: center;
 }
 
 .work-container,
 .contact-container {
   background-color: var(--purple);
+  clip-path: polygon(5% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%, 0% 10%);
+}
+
+.work-container {
+  margin: 0;
+}
+
+.work-icon {
+  padding-left: 5rem;
+}
+
+.contact-icon {
+  padding-left: 5rem;
+}
+
+.work-folder-cont,
+.contact-folder-cont {
+  padding-right: 5rem;
 }
 
 .contact-container {
-  margin-bottom: 10rem;
+  margin: 0 0 10rem 0;
 }
 
 #footer-city {
