@@ -61,7 +61,6 @@ nav {
   gap: 2rem;
   margin: 0;
   padding-left: 0;
-  /* padding: 0 1rem 0 1rem; */
   position: relative;
   z-index: 1;
 }
@@ -80,4 +79,53 @@ h1 {
   text-shadow: 3px 4px var(--purple);
   font-family: Audiowide;
   justify-self: center;
+}
+
+.logo-name-cont {
+  background-color: var(--body-main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#logo-bc {
+  height: 18rem;
+}
+
+.title {
+  background-color: var(--purple);
+}
+
+.content {
+  background-color: var(--body-main);
+  color: var(--pink);
+}
+
+/* ***********FOOTER************* */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-city {
+  width: 100%;
+  height: auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: var(--body-main);
+  padding: 1rem 0;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: PixelifySans;
+  font-size: 20px;
+  color: #f1a9f1;
+  text-shadow: 1px 2px #e962e3;
 }
