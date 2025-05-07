@@ -80,6 +80,7 @@ h1 {
   text-shadow: 3px 4px var(--purple);
   font-family: Audiowide;
   justify-self: center;
+  font-size: 55px;
 }
 
 main {

@@ -79,6 +79,25 @@ h1 {
   text-shadow: 3px 4px var(--purple);
   font-family: Audiowide;
   justify-self: center;
+  font-size: 55px;
+}
+
+h2 {
+  color: white;
+  font-family: ZenDots;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: PixelifySans;
+  font-weight: lighter;
+}
+
+p {
+  font-family: PixelifySans;
+  font-size: 25px;
 }
 
 .logo-name-cont {
@@ -95,11 +114,57 @@ h1 {
 
 .title {
   background-color: var(--purple);
+  color: white;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.title > h2,
+.title > h3 {
+  padding-left: 2rem;
+}
+
+.point-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+}
+
+.boxes {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  background-color: var(--blue);
 }
 
 .content {
   background-color: var(--body-main);
   color: var(--pink);
+  padding: 0 5rem;
+}
+
+main > article {
+  display: flex;
+  flex-direction: column;
+}
+
+.education {
+  margin: 0 5rem 0 5rem;
+}
+
+#education-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+#blue-star {
+  height: 10rem;
 }
 
 /* ***********FOOTER************* */
