@@ -25,10 +25,18 @@ body {
   background-color: var(--body-alt);
 }
 
+/* .logo-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin-top: 2rem;
+} */
+
 header {
   display: flex;
   justify-content: space-between;
   padding: 0 2rem;
+  margin-top: 2rem;
 }
 
 #logo-b {
@@ -103,9 +111,11 @@ p {
 .logo-name-cont {
   background-color: var(--body-main);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 #logo-bc {
@@ -146,6 +156,7 @@ p {
   background-color: var(--body-main);
   color: var(--pink);
   padding: 0 5rem;
+  margin-bottom: 5rem;
 }
 
 main > article {
@@ -203,6 +214,7 @@ main > article {
 
 .content3 {
   height: 15rem;
+  margin-bottom: 0;
 }
 
 .shape-border {
@@ -210,6 +222,8 @@ main > article {
   clip-path: polygon(5% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%, 0% 10%);
   position: relative;
   padding: 4px 4px;
+  width: 50%;
+  margin-bottom: 10rem;
 }
 
 .shape-fill {
@@ -218,10 +232,19 @@ main > article {
   position: relative;
   z-index: 0;
   padding: 7rem 2rem;
+  margin-bottom: 0;
 }
 
 .shape-fill h2 {
   text-align: center;
+  color: var(--purple);
+}
+.shape-fill a {
+  text-decoration: none;
+}
+
+.shape-fill a:hover h2 {
+  color: white;
 }
 
 /* ***********FOOTER************* */
