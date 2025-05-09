@@ -74,3 +74,31 @@ nav {
 .nav-links a:hover {
   color: var(--pink);
 }
+
+/* ***********FOOTER************* */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-city {
+  width: 100%;
+  height: auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: var(--body-main);
+  padding: 1rem 0;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: PixelifySans;
+  font-size: 20px;
+  color: #f1a9f1;
+  text-shadow: 1px 2px #e962e3;
+}

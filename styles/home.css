@@ -75,6 +75,10 @@ nav {
   color: var(--pink);
 }
 
+.active-page{
+  border-bottom: 2px solid white;
+}
+
 h1 {
   color: var(--pink);
   text-shadow: 3px 4px var(--purple);
