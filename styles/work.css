@@ -29,6 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0 2rem;
+  margin-top: 2rem;
 }
 
 #logo-b {
@@ -88,11 +89,11 @@ main {
   width: 50rem;
 }
 
-.page-button{
+.page-button {
   width: 50%;
 }
 
-.shape-border{
+.shape-border {
   background-color: var(--pink);
   clip-path: polygon(10% 0%, 100% 0%, 100% 52%, 90% 100%, 0% 100%, 0% 47%);
   position: relative;
@@ -100,7 +101,7 @@ main {
   /* width: 20rem; */
 }
 
-.shape{
+.shape {
   background: linear-gradient(90deg, #1f0b40 0%, #501da6 100%);
   clip-path: polygon(10% 0%, 100% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%);
   position: relative;
@@ -108,18 +109,17 @@ main {
   padding: 0.5rem 0rem;
 }
 
-.shape h1{
+.shape h1 {
   color: var(--purple);
   font-family: Audiowide;
   font-weight: lighter;
   text-align: center;
 }
 
-hr{
+hr {
   border: 2px solid var(--pink);
   width: 50%;
 }
-
 
 /* ***********FOOTER************* */
 footer {
