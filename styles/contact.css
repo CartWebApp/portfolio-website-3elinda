@@ -75,6 +75,18 @@ nav {
   color: var(--pink);
 }
 
+h1 {
+  font-family: Audiowide;
+  text-shadow: 3px 4px var(--purple);
+  color: var(--pink);
+  justify-self: center;
+  font-size: 55px;
+}
+
+main {
+  font-family: PixelifySans;
+}
+
 /* ***********FOOTER************* */
 footer {
   display: flex;
