@@ -87,8 +87,9 @@ h1 {
   font-size: 55px;
 }
 
+/* ****** MAIN******** */
+
 main {
-  /* margin: 0 10% 0 10%; */
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -210,4 +211,71 @@ footer {
   font-size: 20px;
   color: #f1a9f1;
   text-shadow: 1px 2px #e962e3;
+}
+
+/* ***********Responsive************* */
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* mobile */
+@media screen and (max-width: 520px) {
+  main{
+  gap: 2rem;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .containers {
+    margin: 0 1rem;
+    height: 15rem;
+  }
+
+  .tab {
+    width: 10rem;
+    height: 2rem;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  
+  .rabbit-icon {
+    height: 1.5rem;
+    padding-right: 1rem;
+  }
+
+  .folder {
+    width: 16rem;
+    height: 9rem;
+  }
+
+  .folder > p {
+    font-size: 20px;
+  }
+
+  .icons{
+    width: 7rem;
+  }
+
+  .work-icon, .contact-icon{
+    padding-left: 1rem;
+  }
+
+  .work-container, .contact-container {
+    margin: 0;
+  }
+
+  .contact-container{
+    margin-bottom: 6rem;
+  }
+
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+  }
 }

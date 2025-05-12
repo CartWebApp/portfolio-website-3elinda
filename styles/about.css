@@ -76,6 +76,12 @@ nav {
   color: var(--pink);
 }
 
+.active-page{
+  border-bottom: 2px solid white;
+}
+
+/* ********MAIN********* */
+
 main {
   font-family: PixelifySans;
   color: white;

@@ -83,6 +83,10 @@ h1 {
   font-size: 55px;
 }
 
+.active-page{
+  border-bottom: 2px solid white;
+}
+
 /* ***********MAIN************* */
 main {
   font-family: PixelifySans;

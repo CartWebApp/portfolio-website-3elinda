@@ -83,6 +83,10 @@ nav {
 .nav-links a:hover {
   color: var(--pink);
 }
+
+.active-page{
+  border-bottom: 2px solid white;
+}
 /* ***********MAIN************* */
 h2 {
   font-family: ZenDots;
@@ -248,6 +252,62 @@ h2 {
 .improvements-text {
   font-family: PixelifySans;
   font-size: 25px;
+}
+
+.pixel-bar {
+  width: 30%;
+  height: 5rem;
+  border: 5px solid var(--pink);
+  position: relative;
+  image-rendering: pixelated;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  justify-self: flex-end;
+  margin: 2rem 5rem 10rem 0;
+}
+
+.corner {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: var(--body-main);
+  z-index: 2;
+}
+
+.t-left {
+  top: -5px;
+  left: -5px;
+}
+
+.t-right {
+  top: -5px;
+  right: -5px;
+}
+
+.b-left {
+  bottom: -5px;
+  left: -5px;
+}
+
+.b-right {
+  bottom: -5px;
+  right: -5px;
+}
+
+#fill{
+  background: linear-gradient(90deg, #1F0B40 61.06%, #501DA6 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#fill h2{
+  color: var(--purple);
+}
+
+#fill a{
+text-decoration: none;
 }
 
 /* ***********FOOTER************* */
