@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Belinda Portfolio</title>
+    <link rel="stylesheet" href="/styles/projects.css" />
+    <link rel="icon" type="image/x-icon" href="/images/logo-pixelB.png" />
   </head>
   <body>
     <header>
@@ -25,20 +27,24 @@
     </header>
 
     <section class="project-container">
-      <div class="project-main-image"></div>
-      <hr />
-      <div class="shape-border">
-        <div class="shape">
-          <a
-            href="https://comfy-smart-home43.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1>Smart Home</h1>
-          </a>
-        </div>
+      <div class="project-main-image">
+        <img id="img1" src="/images/smart-home.png" alt="smart-home" />
       </div>
-      <hr />
+      <hr id="line1" />
+      <div class="button-container">
+        <div class="shape-border">
+          <div class="shape">
+            <a
+              href="https://comfy-smart-home43.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1>Smart Home</h1>
+            </a>
+          </div>
+        </div>
+        <hr id="line2" />
+      </div>
     </section>
 
     <section class="category-description">
@@ -61,38 +67,50 @@
     </section>
 
     <main>
-      <div class="image-2"></div>
-      <div class="image-3"></div>
-      <div class="features-border">
-        <div class="features-shape">
-          <h2>Features</h2>
-          <div class="point">
-            <span class="boxes" id="box-item"></span>
-            <p>Informational Content</p>
-          </div>
-          <div class="point">
-            <span class="boxes" id="box-item"></span>
-            <p>Readable Text</p>
-          </div>
-          <div class="point">
-            <span class="boxes" id="box-item"></span>
-            <p>Simple Navigation</p>
-          </div>
-          <div class="point">
-            <span class="boxes" id="box-item"></span>
-            <p>Basic Structure in Place</p>
-          </div>
-          <div class="point">
-            <span class="boxes" id="box-item"></span>
-            <p>Minimalist</p>
-          </div>
-          <div class="point">
-            <span class="boxes" id="box-item"></span>
-            <p>Homepage Works</p>
+      <div class="image-2">
+        <img src="/images/smart-home2.png" alt="" />
+      </div>
+      <div class="image-3">
+        <img src="/images/smart-home3.png" alt="" />
+      </div>
+      <section class="features-section">
+        <div class="features-border">
+          <div class="features-shape">
+            <h2>Features</h2>
+            <div class="points-container">
+              <div class="part1">
+                <div class="point">
+                  <span class="boxes" id="box-item"></span>
+                  <p>Informational Content</p>
+                </div>
+                <div class="point">
+                  <span class="boxes" id="box-item"></span>
+                  <p>Readable Text</p>
+                </div>
+                <div class="point">
+                  <span class="boxes" id="box-item"></span>
+                  <p>Simple Navigation</p>
+                </div>
+              </div>
+              <div class="part2">
+                <div class="point">
+                  <span class="boxes" id="box-item"></span>
+                  <p>Basic Structure in Place</p>
+                </div>
+                <div class="point">
+                  <span class="boxes" id="box-item"></span>
+                  <p>Minimalist</p>
+                </div>
+                <div class="point">
+                  <span class="boxes" id="box-item"></span>
+                  <p>Homepage Works</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="bar"></div>
+        <div class="bar"></div>
+      </section>
     </main>
 
     <section class="goal-improvements">
@@ -123,13 +141,15 @@
     </div>
 
     <footer>
-      <img src="images/Footer-city.png" alt="Footer-city" />
+      <img src="/images/Footer-city.png" alt="Footer-city" id="footer-city" />
       <section class="footer-content">
         <img src="/images/star.png" alt="star-icon" />
-        <p>Designed and developed by Belinda</p>
-        <p>Inspired by pixel art and cyberpunk</p>
-        <p>Copyright © 2025-2026</p>
-        <img src="/images/star.png" alt="star-icon" />
+        <div class="footer-text">
+          <p>Designed and developed by Belinda</p>
+          <p>Inspired by pixel art and cyberpunk</p>
+          <p>Copyright © 2025-2026</p>
+        </div>
+        <img src="/images/star-right.png" alt="star-icon" />
       </section>
     </footer>
   </body>

@@ -99,6 +99,7 @@ h1 {
   display: flex;
   padding: 2rem 0;
   gap: 10rem;
+  margin-bottom: 5rem;
 }
 
 .text {
@@ -141,10 +142,153 @@ h1 {
   width: inherit;
 }
 
+.section2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem 5rem 5rem;
+}
+
+.image-text {
+  display: flex;
+  gap: 10rem;
+}
+
+.image {
+  width: 80%;
+}
+
+.bar1 {
+  width: 100%;
+  height: 1.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.first {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  background-color: var(--blue);
+  clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
+}
+
+.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  background-color: var(--blue);
+  transform: skew(-50deg);
+  /* clip-path: polygon(20% 0, 100% 0, 40% 100%, 0% 100%); */
+}
+
+.stripe:nth-child(1) {
+  left: 0;
+}
+.stripe:nth-child(2) {
+  left: 60px;
+}
+.stripe:nth-child(3) {
+  left: 130px;
+}
+.stripe:nth-child(4) {
+  left: 210px;
+}
+
+.fill {
+  position: absolute;
+  left: 280px;
+  top: 0;
+  /* height: 100%; */
+  right: 0;
+  bottom: 0;
+  background-color: var(--blue);
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.inmg-cont {
+  width: 100%;
+}
+
+#sky-img {
+  /* display: flex; */
+  width: 100%;
+}
+
+.bar2 {
+  height: 1.5rem;
+  background-color: var(--blue);
+  margin-bottom: 2rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+hr {
+  border: 4px solid var(--pink);
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 5rem 15rem 5rem;
+}
+
+.pixel-bar {
+  width: 100%;
+  height: 30rem;
+  border: 15px solid var(--pink);
+  position: relative;
+  image-rendering: pixelated;
+  box-sizing: border-box;
+}
+
+.corner {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--purple);
+  z-index: 2;
+}
+
+.t-left {
+  top: -15px;
+  left: -15px;
+}
+
+.t-right {
+  top: -15px;
+  right: -15px;
+}
+
+.b-left {
+  bottom: -15px;
+  left: -15px;
+}
+
+.b-right {
+  bottom: -15px;
+  right: -15px;
+}
+
+.pixel-image {
+  background-image: url(/images/tea-time.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 /* ***********FOOTER************* */
 footer {
   display: flex;
   flex-direction: column;
+  transform: translateY(-45%);
+  z-index: 1;
+  width: 99%;
+  position: absolute;
 }
 
 #footer-city {

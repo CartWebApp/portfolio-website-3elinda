@@ -83,8 +83,61 @@ h1 {
   font-size: 55px;
 }
 
+/* ***********MAIN************* */
 main {
   font-family: PixelifySans;
+  font-size: 25px;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.section1 {
+  margin-left: 5rem;
+}
+
+.bar {
+  background-color: var(--purple);
+  border: 2px solid var(--pink);
+  height: 1rem;
+}
+
+#image {
+  border: 1px solid var(--pink);
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section2 {
+  margin-right: 5rem;
+}
+
+#hello {
+  color: var(--pink);
+  font-size: 30px;
+}
+
+.section2 p {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.boxes {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--body-main);
+  border: 1px solid var(--blue);
+  margin-right: 1rem;
+}
+
+#contact1 {
+  color: var(--blue);
 }
 
 /* ***********FOOTER************* */
