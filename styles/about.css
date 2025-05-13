@@ -320,6 +320,19 @@ footer {
   text-shadow: 1px 2px #e962e3;
 }
 
+/* ***********Responsive************* */
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+  #axolotl-img {
+    height: 12rem;
+  }
+
+  #sky-img {
+    width: 15rem;
+  }
+}
+
 @media screen and (max-width: 520px) {
   #logo-b {
     position: relative;

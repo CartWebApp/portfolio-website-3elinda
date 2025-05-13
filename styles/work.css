@@ -311,6 +311,29 @@ footer {
   text-shadow: 1px 2px #e962e3;
 }
 
+/* ***********Responsive************* */
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section1 {
+    margin: 0 2rem;
+  }
+
+  .big-image {
+    width: 100%;
+  }
+
+  .page-button {
+    width: 80%;
+    justify-self: center;
+  }
+}
+
 @media screen and (max-width: 520px) {
   #logo-b {
     position: relative;
