@@ -85,7 +85,7 @@ nav {
   color: var(--pink);
 }
 
-.active-page{
+.active-page {
   border-bottom: 2px solid white;
 }
 
@@ -309,4 +309,144 @@ footer {
   font-size: 20px;
   color: #f1a9f1;
   text-shadow: 1px 2px #e962e3;
+}
+
+@media screen and (max-width: 520px) {
+  #logo-b {
+    position: relative;
+    z-index: 2;
+    height: 3rem;
+    width: auto;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger {
+    clip-path: polygon(0% 0%, 95% 0%, 100% 25%, 100% 100%, 5% 100%, 0% 75%);
+    background-color: var(--pink);
+    height: 3rem;
+    width: 4rem;
+    position: relative;
+    padding: 3px 3px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .hamburger-fill {
+    clip-path: polygon(0% 0%, 95% 0%, 100% 25%, 100% 100%, 5% 100%, 0% 75%);
+    background: linear-gradient(90deg, #1f0b40 0%, #501da6 100%);
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hamburger-fill span {
+    display: block;
+    height: 5px;
+    width: 40%;
+    background-color: var(--purple);
+    border-radius: 25px;
+    position: absolute;
+    transition: all 0.3s ease;
+    left: 30%;
+  }
+
+  .hamburger-fill span:nth-child(1) {
+    top: 10px;
+  }
+
+  .hamburger-fill span:nth-child(2) {
+    top: 20px;
+  }
+
+  .hamburger-fill span:nth-child(3) {
+    top: 30px;
+  }
+
+  /* when opened */
+  .hamburger.active .hamburger-fill span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 20px;
+  }
+
+  .hamburger.active .hamburger-fill span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .hamburger-fill span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 20px;
+  }
+
+  .nav-menu {
+    background: linear-gradient(90deg, #1f0b40 0%, #501da6 100%);
+    clip-path: none;
+    position: fixed;
+    top: 0;
+    right: -105%;
+    height: 100vh;
+    width: 100vw;
+    transition: right 0.3s ease;
+    z-index: 1;
+  }
+
+  .nav-menu.open {
+    right: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 2rem;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .shape-filler h1 {
+    font-size: 30px;
+  }
+
+  .section1 {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .big-image {
+    width: 100%;
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+
+  .page-button {
+    width: 90%;
+    align-self: center;
+  }
+
+  .shape-border {
+    padding: 4px;
+  }
+
+  .shape-filler {
+    padding: 1px 0;
+  }
+
+  .project-border {
+    /* padding: 5px 5px; */
+    height: 15rem;
+    width: 25rem;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
 }

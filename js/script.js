@@ -3,6 +3,21 @@ const mainImage = document.getElementById("main-image");
 const container = document.querySelector(".section2");
 const main = document.querySelector("main");
 
+// for hamburger menu
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
+
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("open");
+  });
+
+  localStorage.style.display = navMenu.classList.contains("open")
+    ? "block"
+    : "none";
+});
+
 // Function for when user scrolls/page loads
 function updateActiveImageAndScale() {
   const containerRect = container.getBoundingClientRect();
