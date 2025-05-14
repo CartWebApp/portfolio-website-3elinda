@@ -337,6 +337,24 @@ footer {
   color: #f1a9f1;
   text-shadow: 1px 2px #e962e3;
 }
+/* ***********Responsive************* */
+
+@media screen and (max-width: 1030px) {
+  .button-container{
+    width: 100%;
+  }
+
+  .image-2,
+  .image-3 {
+    display: flex;
+    height: 25rem;
+  }
+
+  .features-section{
+    width: 100%;
+    justify-self: center;
+  }
+}
 
 @media screen and (max-width: 520px) {
   #logo-b {

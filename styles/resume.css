@@ -287,6 +287,13 @@ footer {
 
 /* ***********Responsive************* */
 
+@media screen and (max-width: 1030px) {
+  .content1,
+  .content2 {
+    overflow: auto;
+  }
+}
+
 /* tablet */
 @media screen and (max-width: 1024px) {
   .content {
