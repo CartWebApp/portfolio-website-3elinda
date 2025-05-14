@@ -89,6 +89,14 @@ h1 {
 
 /* ****** MAIN******** */
 
+.intro p{
+  color: white;
+  font-family: PixelifySans;
+  font-size: 25px;
+  width: 40%;
+  margin-left: 5rem
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -353,6 +361,10 @@ footer {
 
   h1 {
     font-size: 45px;
+  }
+
+  .intro p{
+    font-size: 20px;
   }
 
   .containers {
